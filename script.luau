@@ -627,7 +627,6 @@ local script = G2L["4"];
 		attacking = true
 	
 		while toggle.Text == "ON" do
-			print("Attacking...")
 			HelperFunctions.useSkills()
 			HelperFunctions.swingWeapon()
 			task.wait(0.25)
